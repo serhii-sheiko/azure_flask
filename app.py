@@ -10,6 +10,7 @@ def index():
 
 @app.route('/a1')
 def a1():
+    print("a1")
     return f'a1 route now {datetime.now()} version 31.03.2026'
 
 if __name__ == '__main__':
