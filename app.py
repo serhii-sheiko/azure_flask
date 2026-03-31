@@ -6,7 +6,7 @@ app = flask.Flask(__name__)
 
 @app.route('/')
 def index():
-    return f'Hello World! {datetime.now()} version 31.03.2026 3'
+    return f'Hello World! {datetime.now()} version -> 31.03.2026 3'
 
 @app.route('/a1')
 def a1():
